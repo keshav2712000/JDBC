@@ -1,0 +1,13 @@
+JDBC : Java Database Connectivity
+
+In JDBC we can create connection between java code and the Database
+We make use of the driver class , URL , username , password to create a connection
+Then to perform sql operations we can make use of Statements and PreparedStatements
+
+Statements are used for static queries thus can be used only once .
+PreparedStatements are used for dynamic queries thus can be used multiple times .
+
+PreparedStatements are more preferred than Statements because of the reusability
+
+Class.forName() checks if the class is present or not if present then returns an object of that class
+else throws an ClassNotFound Exception
